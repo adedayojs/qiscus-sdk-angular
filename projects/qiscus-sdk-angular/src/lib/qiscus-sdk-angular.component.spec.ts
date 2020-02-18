@@ -1,19 +1,19 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { qiscusSdkAngularComponent } from './qiscus-sdk-angular.component';
+import { QiscusSdkAngularComponent } from './qiscus-sdk-angular.component';
 
-describe('qiscusSdkAngularComponent', () => {
-    let component: qiscusSdkAngularComponent;
-    let fixture: ComponentFixture<qiscusSdkAngularComponent>;
+describe('QiscusSdkAngularComponent', () => {
+    let component: QiscusSdkAngularComponent;
+    let fixture: ComponentFixture<QiscusSdkAngularComponent>;
 
     beforeEach(async(() => {
         TestBed.configureTestingModule({
-            declarations: [qiscusSdkAngularComponent]
+            declarations: [QiscusSdkAngularComponent]
         }).compileComponents();
     }));
 
     beforeEach(() => {
-        fixture = TestBed.createComponent(qiscusSdkAngularComponent);
+        fixture = TestBed.createComponent(QiscusSdkAngularComponent);
         component = fixture.componentInstance;
         fixture.detectChanges();
     });

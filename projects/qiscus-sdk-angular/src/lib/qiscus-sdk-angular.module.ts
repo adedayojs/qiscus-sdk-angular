@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { qiscusSdkAngularComponent } from './qiscus-sdk-angular.component';
+import { QiscusSdkAngularComponent } from './qiscus-sdk-angular.component';
 
 @NgModule({
-    declarations: [qiscusSdkAngularComponent],
+    declarations: [QiscusSdkAngularComponent],
     imports: [],
-    exports: [qiscusSdkAngularComponent]
+    exports: [QiscusSdkAngularComponent]
 })
-export class qiscusSdkAngularModule {}
+export class QiscusSdkAngularModule {}

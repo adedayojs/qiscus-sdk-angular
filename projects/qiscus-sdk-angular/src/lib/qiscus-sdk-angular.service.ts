@@ -3,7 +3,7 @@ import { Injectable } from '@angular/core';
 @Injectable({
     providedIn: 'root'
 })
-export class qiscusSdkAngularService {
+export class QiscusSdkAngularService {
     constructor() {}
     logger(): void {
         console.log('This is quscus service logger');

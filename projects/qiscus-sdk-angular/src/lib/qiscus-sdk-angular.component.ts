@@ -9,7 +9,7 @@ import { Component, OnInit } from '@angular/core';
     `,
     styles: []
 })
-export class qiscusSdkAngularComponent implements OnInit {
+export class QiscusSdkAngularComponent implements OnInit {
     constructor() {}
 
     ngOnInit() {}
