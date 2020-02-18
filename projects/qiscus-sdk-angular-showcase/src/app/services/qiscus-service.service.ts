@@ -1,10 +1,15 @@
 import { Injectable } from '@angular/core';
-// import {}
+import { QiscusSdkAngularService } from 'qiscus-sdk-angular';
 
 @Injectable({
-  providedIn: 'root'
+    providedIn: 'root'
 })
 export class QiscusServiceService {
-
-  constructor() { }
+    constructor(private qiscusService: QiscusSdkAngularService) {}
+    logQiscusLogger() {
+        this.qiscusService.logger();
+    }
+    displayList() {
+        return this.qiscusService.listToDisplay();
+    }
 }
