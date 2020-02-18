@@ -3,5 +3,8 @@
   "dest": "../../dist/qiscus-sdk-angular",
   "lib": {
     "entryFile": "src/public-api.ts"
-  }
+  },
+  "whitelistedNonPeerDependencies": [
+    "."
+  ]
 }

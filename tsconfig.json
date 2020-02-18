@@ -15,7 +15,8 @@
         "lib": ["es2018", "dom"],
         "paths": {
             "qiscus-sdk-angular": ["dist/qiscus-sdk-angular"],
-            "qiscus-sdk-angular/*": ["dist/qiscus-sdk-angular/*"]
+            "qiscus-sdk-angular/*": ["dist/qiscus-sdk-angular/*"],
+            "qiscus-sdk-core":["projects/qiscus-sdk-angular/node_modules/qiscus-sdk-core/"]
         }
     },
     "angularCompilerOptions": {
