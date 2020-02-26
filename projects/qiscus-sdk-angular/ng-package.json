@@ -2,7 +2,10 @@
   "$schema": "../../node_modules/ng-packagr/ng-package.schema.json",
   "dest": "../../dist/qiscus-sdk-angular",
   "lib": {
-    "entryFile": "src/public-api.ts"
+    "entryFile": "src/public-api.ts",
+    "umdModuleIds": {
+      "qiscus-sdk-core": "qiscus-sdk-core"
+    }
   },
   "whitelistedNonPeerDependencies": [
     "."

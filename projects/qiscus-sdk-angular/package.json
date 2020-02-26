@@ -7,5 +7,14 @@
   },
   "dependencies": {
     "qiscus-sdk-core": "^2.9.5"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "https://www.github.com/adedayojs/qiscus-sdk-angular"
+  },
+  "author": {
+    "name": "Adedayo Adedunye",
+    "url": "https://adedayojs.com",
+    "email": "samfeolu@gmail.com"
   }
 }
